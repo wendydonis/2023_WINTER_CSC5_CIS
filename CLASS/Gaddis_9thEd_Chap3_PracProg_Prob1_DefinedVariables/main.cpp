@@ -3,7 +3,7 @@
  * File:   main.cpp
  * Author: donis
  *
- * Created on January 11, 2023, 3:43 PM
+ * Created on January 16, 2023, 4:03 PM
  * Purpose: Template to be used for all future hmwk, Labs, Exams, Projects
  */
 
@@ -21,24 +21,18 @@ using namespace std;
 //Execution begins here at main
 int main(int argc, char** argv) 
 {   
-    int num;
-    float numb;
-    //Set random number seed
+    //variables
+    int age;
+    double pay;
+    char section;
     
     //Declare Variables
-    cout<< "1,2,3,4" << num << endl;
-    cout<< "1.0,2.0,3.0,4.0" << numb << endl;
-    
-    //Initialize Variables 
-    
-    //Map/Process the Inputs -> Outputs
-    cout<< 'num' << 'numb' <<endl;
-    
-    //Display Inputs/Outputs
-    
-    //Clean up memory and files
-    
-    //Exit the Program
+    cout << "Enter an integer, a double, and a character: ";
+    cin >> age >> pay >> section;
+    cout <<"age: " << age <<endl;
+    cout <<"pay: " << pay <<endl;
+    cout <<"section" << section <<endl;
+ 
     return 0;
 }
 

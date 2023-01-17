@@ -1,3 +1,4 @@
+
 /* 
  * File:   main.cpp
  * Author: donis
@@ -34,6 +35,4 @@ int main(int argc, char** argv) {
     //Exit the Program
     return 0;
 }
-
-
 

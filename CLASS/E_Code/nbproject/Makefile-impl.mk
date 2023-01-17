@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=Sum_of_Two_Numbers
+PROJECTNAME=E_Code
 
 # Active Configuration
 DEFAULTCONF=Debug
